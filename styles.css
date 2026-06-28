@@ -1,0 +1,122 @@
+
+:root {
+    --sa-red: #f80800;
+    --sa-blue: #0037ec;
+    --sa-green: #10be00;
+    --sa-black: #000000;
+    --sa-yellow: #ffc800;
+    --sa-white: #FFFFFF;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--sa-white);
+    color: var(--sa-black);
+    background-color: rgb(224, 224, 224);
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flag-line {
+    height: 8px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+        to right,
+        var(--sa-red) 0%,
+        var(--sa-red) 16.66%,
+        var(--sa-blue) 16.66%,
+        var(--sa-blue) 33.33%,
+        var(--sa-green) 33.33%,
+        var(--sa-green) 50%,
+        var(--sa-black) 50%,
+        var(--sa-black) 66.66%,
+        var(--sa-yellow) 66.66%,
+        var(--sa-yellow) 83.33%,
+        var(--sa-white) 83.33%,
+        var(--sa-white) 100%
+    );
+    border-radius: 0;
+}
+header{
+    background-color: var(--sa-red);
+    color: var(--sa-white);
+    text-align: center;
+}
+.logohead{
+    width: 100%;
+}
+h2{
+    background-color: #ffccd0;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+div{
+    background-color: #d3ffeb;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #ffb085;
+    border-style: solid;
+}
+.Investments{
+    background-color: #ffdfb6;
+    display: flex;
+    justify-content: center;
+   
+}
+.RD{
+width: 33%;
+}
+.RD h3{
+    color: var(--sa-green);
+}
+.RG{
+width: 33%;
+}
+.RG h3{
+    color: var(--sa-yellow);
+}
+.RB{
+width: 33%;
+}
+.RB h3{
+    color: var(--sa-red);
+}
+.Transport{
+    background-color: #ffdfb6;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+.Housing{
+    background-color: #ffdfb6;
+    display: flex;
+    justify-content: center;
+}
+.Food{
+    background-color: #ffdfb6;
+    display: flex;
+    justify-content: center;
+}
+.food1{
+width: 20%;
+}
+.food2{
+   width: 20%; 
+}
+.food3{
+    width: 20%;
+}
+.food4{
+    width: 20%;
+}
+img{
+    width: 100%;
+}
+.News{
+    background-color: #f9a73e;
+    padding: 1px 0;
+}
