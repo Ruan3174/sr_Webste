@@ -39,17 +39,15 @@ width: 33%;
 }
 .RG{
 width: 33%;
-color: yellow;
 }
 .RG h3{
-
+color: yellow;
 }
 .RB{
 width: 33%;
-color: rgb(255, 115, 0);
 }
 .RB h3{
-
+color: rgb(255, 115, 0);
 }
 .Transport{
     background-color: #ffdfb6;
